@@ -8,12 +8,14 @@
         tools:context=".MainActivity">
 
     <ImageView
-            android:layout_width="556dp"
-            android:layout_height="622dp" app:srcCompat="@drawable/welcomescreenbg"
+            android:layout_width="0dp"
+            android:layout_height="0dp" app:srcCompat="@drawable/welcomescreenbg"
             android:id="@+id/imageView" app:layout_constraintTop_toTopOf="parent"
-            android:scaleType="centerCrop" android:layout_marginEnd="8dp"
-            app:layout_constraintEnd_toEndOf="parent" android:layout_marginStart="8dp"
-            app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.425"/>
+            android:scaleType="centerCrop"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.425"
+            android:contentDescription="@string/bg"
+            app:layout_constraintBottom_toBottomOf="parent"/>
     <ImageView
             android:layout_width="122dp"
             android:layout_height="27dp" app:srcCompat="@drawable/swooshlogo"
@@ -21,12 +23,12 @@
             android:layout_marginEnd="8dp" app:layout_constraintStart_toStartOf="parent"
             android:layout_marginStart="8dp"
             android:layout_marginTop="76dp"
-            app:layout_constraintTop_toTopOf="parent"/>
+            app:layout_constraintTop_toTopOf="parent" android:contentDescription="@string/logoapp"/>
     <Button
-            android:text="Get started"
+            android:text="@string/get_started"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:id="@+id/button"
+            android:id="@+id/getstart"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent"
             android:textColor="@android:color/white" android:background="@drawable/swoosh_button"/>
