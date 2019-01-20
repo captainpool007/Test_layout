@@ -26,22 +26,23 @@
         <ToggleButton
                 android:text="@string/togglebutton"
                 android:layout_height="wrap_content" tools:layout_editor_absoluteY="337dp"
-                tools:layout_editor_absoluteX="148dp" android:id="@+id/toggleButton3" android:checked="true"
+                tools:layout_editor_absoluteX="148dp" android:id="@+id/toggleButton1"
                 android:layout_width="match_parent" android:background="@drawable/toggle" android:textOff="@string/meow"
-                android:textOn="@string/bhow" android:textColor="@android:color/background_light"/>
-        <ToggleButton
-                android:text="@string/togglebutton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" android:id="@+id/toggleButton"
-                android:background="@drawable/toggle" android:layout_marginBottom="16dp"
-                android:layout_marginTop="16dp" android:textOff="@string/meow" android:textOn="@string/bhow"
-                android:textColor="@android:color/background_light"/>
+                android:textOn="@string/bhow" android:textColor="@android:color/background_light"
+                android:onClick="toggle1"/>
         <ToggleButton
                 android:text="@string/togglebutton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" android:id="@+id/toggleButton2"
+                android:background="@drawable/toggle" android:layout_marginBottom="16dp"
+                android:layout_marginTop="16dp" android:textOff="@string/meow" android:textOn="@string/bhow"
+                android:textColor="@android:color/background_light" android:onClick="toggle2"/>
+        <ToggleButton
+                android:text="@string/togglebutton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/toggleButton3"
                 android:background="@drawable/toggle" android:textOff="@string/meow" android:textOn="@string/bhow"
-                android:textColor="@android:color/background_light" android:checked="false"/>
+                android:textColor="@android:color/background_light" android:checked="false" android:onClick="toggle3"/>
     </LinearLayout>
     <ImageView
             android:layout_width="122dp"
@@ -55,8 +56,8 @@
             android:text="@string/next"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:id="@+id/button2" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+            android:id="@+id/league_next" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
             app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
             app:layout_constraintBottom_toBottomOf="@+id/imageView3" android:background="@drawable/swoosh_button"
-            android:textColor="@android:color/background_light"/>
+            android:textColor="@android:color/background_light" android:onClick="league_nextclick"/>
 </android.support.constraint.ConstraintLayout>
