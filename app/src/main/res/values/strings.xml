@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="bg">bg</string>
+    <string name="logoapp">logoapp</string>
+    <string name="get_started">Get started</string>
+    <string name="togglebutton">ToggleButton</string>
+    <string name="meow">meow</string>
+    <string name="bhow">bhow</string>
+    <string name="next">NEXT</string>
 </resources>

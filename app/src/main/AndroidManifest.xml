@@ -18,6 +18,8 @@
         </activity>
         <activity android:name=".activity_league">
         </activity>
+        <activity android:name=".skill_activity">
+        </activity>
     </application>
 
 </manifest>
